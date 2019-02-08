@@ -1,7 +1,7 @@
-# Ymerheim-Core
+# Ymirheim-Core
 Trinitycore Forked 3.3.5a Emulator  :shipit: | WOTLK
 
-# Ymerheim Database
+# Ymirheim Database
 bug reports from players and fixes applied by our team.
 
 # How To use "The Issue Tracker"
