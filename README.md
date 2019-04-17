@@ -1,5 +1,6 @@
-# Redrum-Core
-Trinitycore Forked 3.3.5a Emulator  :shipit: | WOTLK
+# Redrum-Core Emulator
+Gossip System Trinitycore 3.3.5a :shipit: | WOTLK
+Main System Redrum Emulator | Antrix Project 2005 | 3.3.5a :shipit: | WOTLK
 
 # Redrum Database
 bug reports from players and fixes applied by our team.
