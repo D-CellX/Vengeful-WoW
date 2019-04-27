@@ -1,5 +1,5 @@
 # Redrum-Core Emulator
-- [x] Gossip System Trinitycore 3.3.5a :shipit: | WOTLK
+- [x] Trinitycore 3.3.5a :shipit: | WOTLK
 - [x] Main System Redrum Emulator | Antrix Project 2005 | 3.3.5a :shipit:
 
 # Redrum Database
