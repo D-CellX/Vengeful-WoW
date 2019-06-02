@@ -1,1 +1,42 @@
 ✅ V.C.N WOW Changelog, Webhook to Discord ✅
+
+
+Changes made on 2019/06/02
+✅ V.C.N Custom Scripts
+  Initial commit for Weapon Visual NPC. Updates to make sure the visual remains after character logs out, addition of hidden visuals.
+  The first commit to our new Arena Spectator Script so we can start integration with our custom Arena Brackets,
+  Core/Misc: don't allow players to use/activate/loot non-allowed gameobjects while under the effect of a damage immunity aura. Fixes Looting Objects like Arena Chests while in bubble
+  Custom Currency integration, application to live patch.
+  Crossfaction Battleground Scripts now fitted to work with V.C.N Custom Arena Brackets
+  Integration of Arena Stats in Game via NPC. Added extra option for played time information
+  Arena SoloQ 3v3 Custom Bracket Integration
+  
+✅ V.C.N DB/Quests
+  DB/Quest: Dark Iron Legacy / Jack Likes His Drink / The Wrath of Neptulon
+  Test Flight: The Zephyrium Capacitorium It fix also the 3 other Test Flight quests
+  Return to Troyas (Improvements)
+✅ V.C.N Core/Scripts
+  Scripts/Stratholme: Baron Rivendare rewrite
+  Core/Script: add script hook to allow overriding of a vehicle passenger's exit position
+  out of range group updates will now get sent every 5 seconds instead of as soon as they are available to reflect retail behaivior
+  Goober gameobjects may reset only if they have a lock id or a reset time specified
+  Add another value to event_param1 for SMART_EVENT_GOSSIP_HELLO to support all cases of OnGossipHello/OnReportUse in GameObjects: - event_param1 set to 0: execute the action for both OnGossipHello and OnReportUse. This might result in the action being executed twice when clicking the GameObject
+  Define WEATHER_STATE_DRIZZLE state
+  Fix spells with Health Leech effect, now check damage absorb when calculate Heal.
+  Fix SMART_EVENT_SUMMON_DESPAWNED not working when event_param1 was set to any value other than 0
+  Apply some movement related corrections Unit::StopMoving() is evil, and so is MotionMaster::Clear() the first can really mess up existing movement generators the second can interrupt "controlled" movements... can do it literally mid-air
+  Remove incorrect ClearUnitState calls related to movement these unit states should never be removed outside motionmaster's handlings
+
+Changes made on 2019/05/21
+✅ V.C.N Core/Scripts
+  Core/Misc: remove incorrect ClearUnitState calls related to movement
+  Couple movement related corrections in FollowerAI plus EnterEvadeMode streamline
+  streamline FollowerAI::AssistPlayerInCombatAgainst with SmartAI and EscortAI
+  variable naming standarization plus minimum codestyle changes
+  Core/Movement: Prevent rooted units from falling
+  Return result of initial cast check from WorldObject::CastSpell methods
+  Fix Warrior's Charge launch visual while jumping backwards
+✅ V.C.N DB/Quests
+  improvements for quest Get Me Outa Here
+  Some cosmetics for Auchenai Crypts
+  Core/Quest: improve source item deletion logic for items that give quests.
