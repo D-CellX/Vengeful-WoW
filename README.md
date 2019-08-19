@@ -2,7 +2,7 @@
 - [x] Trinitycore 3.3.5a :shipit: | WOTLK
 - [x] Main System Redrum Emulator | Antrix Project 2005 | 3.3.5a :shipit:
 
-# Redrum Database
+# Ymirheim Database
 bug reports from players and fixes applied by our team.
 
 # How To use "The Issue Tracker"
@@ -10,7 +10,7 @@ Did you find a bug? How about having it fixed asap? Then please be so kind to su
 In order to use the Issue Tracker, all you need to do is click on the green “New Issue” button. Add the title of the bug to your post (a title which makes it as clear as possible what the bug is about. No ambiguous “hunter pet bug” titles!), and fill in the template in the description box.
 
 - [x] I Report my bug  :+1:
-- [x] V.C.N WoW Staff Receives your Report
+- [x] Vengeful-WoW Staff Receives your Report
 - [x] My bug/report is fixed and submited to the Server
 - [x] I am a Contributor!
 
